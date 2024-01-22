@@ -94,7 +94,7 @@ and change their day-to-day world to match their perception, end slavery and see
             Console.WriteLine("=========================================================");
             Console.Write("Input:");
             int Invert = Convert.ToInt32(Console.ReadLine());
-            if (Add <= 0)
+            if (Invert <= 0)
             {
                 Console.WriteLine("Invalid Input!");
             }
